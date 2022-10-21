@@ -30,6 +30,33 @@ code {
   justify-content: space-between;
 }
 
+.note.new{
+  background-color: lightskyblue;
+}
+
+textarea{
+  border: none;
+  resize: none;
+  background-color: lightskyblue;
+  color: black;
+}
+textarea:focus{
+  outline: none;
+}
+
+
+.save{
+  background-color: lightblue;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px 5px 10px;
+}
+.save:hover{
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+
 .noteFooter{
   display: flex;
   flex-direction: row;
