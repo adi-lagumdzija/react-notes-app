@@ -2,7 +2,9 @@ import { useState } from 'react';
 const AddNote = ({ handleAddNote }) => {
     const [noteText, setNoteText] = useState(' ')
     const handleChange = (event) => {
+        if(characterLimit - event.target.value.length >= 0){
         setNoteText(event.target.value)
+    }
     }
     const characterLimit = 200;
     const handleSaveClick = () => {
