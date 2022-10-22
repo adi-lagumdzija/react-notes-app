@@ -21,7 +21,7 @@ code {
 
 
 .note{
-  background-color: lightyellow;
+  background-color: #66BFBF;
   border-radius: 10px;
   padding: 1rem;
   min-height: 170px;
@@ -31,13 +31,13 @@ code {
 }
 
 .note.new{
-  background-color: lightskyblue;
+  background-color: #fdffcd;
 }
 
 textarea{
   border: none;
   resize: none;
-  background-color: lightskyblue;
+  background-color: #fdffcd;
   color: black;
 }
 textarea:focus{
