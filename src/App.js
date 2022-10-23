@@ -43,6 +43,7 @@ const[searchText, setSearchText] = useState('');
   }
 
   return <div className="container">
+    <h1>Notes by Adi</h1>
     <Search handleSearchNote={setSearchText}/>
     <NotesList notes={notes.filter((note)=>
       note.text.toLowerCase().includes(searchText)
